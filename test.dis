@@ -1,0 +1,38 @@
+
+ee108b/test.bin:     file format ecoff-bigmips
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	20090539 	addi	t1,zero,1337
+   4:	20080001 	addi	t0,zero,1
+   8:	21080538 	addi	t0,t0,1336
+   c:	15090012 	bne	t0,t1,58 <.text+0x58>
+  10:	00000000 	nop
+  14:	00000000 	nop
+  18:	00000000 	nop
+  1c:	00000000 	nop
+  20:	00000000 	nop
+  24:	ac090020 	sw	t1,32(zero)
+  28:	21280000 	addi	t0,t1,0
+  2c:	8c0a0020 	lw	t2,32(zero)
+  30:	150a000b 	bne	t0,t2,60 <.text+0x60>
+  34:	00000000 	nop
+  38:	00000000 	nop
+  3c:	00000000 	nop
+  40:	00000000 	nop
+  44:	00000000 	nop
+  48:	8c0b0020 	lw	t3,32(zero)
+  4c:	152b0006 	bne	t1,t3,68 <.text+0x68>
+  50:	00000000 	nop
+  54:	0800001c 	j	70 <.text+0x70>
+  58:	20091bad 	addi	t1,zero,7085
+  5c:	08000016 	j	58 <.text+0x58>
+  60:	20092bad 	addi	t1,zero,11181
+  64:	08000018 	j	60 <.text+0x60>
+  68:	20093bad 	addi	t1,zero,15277
+  6c:	0800001a 	j	68 <.text+0x68>
+  70:	00000000 	nop
+  74:	00000000 	nop
+  78:	00000000 	nop
+  7c:	00000000 	nop
