@@ -16,3 +16,6 @@ To run the emulator:
 ./mipsemu file.bin
 
 NOTE: unlike the actual emulator this emulator additionally has mouse input support.
+
+![Screenshot 1](/screenshots/pong.png)
+
